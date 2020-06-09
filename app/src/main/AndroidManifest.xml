@@ -16,6 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".picker.CityPickerActivity"
+            android:theme="@style/DefaultCityPickerTheme" />
+        <activity android:name=".picker.WheelViewActivity" />
+        <activity android:name=".picker.DatePickerActivity" />
         <activity android:name=".rvandrv.RecyclerDoubleActivity" />
         <activity android:name=".multiple.MultipleActivity" />
         <activity android:name=".flexbox.FlexBoxActivity" />

@@ -1,5 +1,6 @@
 package com.hanchao.summary.banner;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -17,9 +18,11 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class BannerViewPagerActivity extends AppCompatActivity {
     List<String> list = new ArrayList<>();
+    private static final int REQUEST_CODE_CHOOSE = 23;
 
     @BindView(R.id.banner_v)
     BannerViewPager<String, NetViewHolder> mBanner;
@@ -49,6 +52,19 @@ public class BannerViewPagerActivity extends AppCompatActivity {
                 .setIndicatorSliderColor(Color.GRAY, Color.GREEN)
                 .setPageStyle(PageStyle.MULTI_PAGE_OVERLAP)
                 .create(list);
+    }
+
+    @OnClick(R.id.open_image_tv)
+    public void onClick() {
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_CODE_CHOOSE && resultCode == RESULT_OK) {
+
+        }
     }
 
     @Override

@@ -12,4 +12,17 @@
         android:layout_height="200dp"
         android:layout_margin="12dp" />
 
+
+    <TextView
+        android:id="@+id/open_image_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="#EEEEEE"
+        android:gravity="center"
+        android:text="选择图片"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
 </LinearLayout>

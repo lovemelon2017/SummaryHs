@@ -43,6 +43,11 @@
                 android:id="@+id/main_rv_rv_tv"
                 style="@style/myTextBlue"
                 android:text="Recycler + Recycler" />
+
+            <TextView
+                android:id="@+id/main_picker"
+                style="@style/myTextBlue"
+                android:text="Android Picker" />
         </LinearLayout>
     </ScrollView>
 

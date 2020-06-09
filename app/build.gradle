@@ -54,4 +54,11 @@ dependencies {
     implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.5.8'
     //评分
     implementation 'com.iarcuschin:simpleratingbar:0.1.5'
+    //选择器
+    implementation 'com.contrarywind:Android-PickerView:4.1.9'
+    //城市选择器
+    implementation 'liji.library.dev:citypickerview:5.2.2'
+    implementation 'com.zaaach:citypicker:2.0.3'
+
+
 }
