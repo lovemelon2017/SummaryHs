@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Android"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_banner_tv"
+                style="@style/myTextBlue"
+                android:text="Banner" />
+
+            <TextView
+                android:id="@+id/main_flex_tv"
+                style="@style/myTextBlue"
+                android:text="FlexBox" />
+
+            <TextView
+                android:id="@+id/main_duo_tv"
+                style="@style/myTextBlue"
+                android:text="Multiple Layout" />
+
+            <TextView
+                android:id="@+id/main_rv_rv_tv"
+                style="@style/myTextBlue"
+                android:text="Recycler + Recycler" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

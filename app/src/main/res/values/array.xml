@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TabStyle">
+        <item>圆形指示器</item>
+        <item>线形指示器</item>
+        <item>指示器颜色</item>
+        <item>指示器大小</item>
+        <item>指示器间距</item>
+        <item>指示器选中区分</item>
+        <item>指示器左边</item>
+        <item>指示器中间</item>
+        <item>指示器右边</item>
+    </string-array>
+
+    <string-array name="BannerStyle">
+        <item>默认</item>
+        <item>画廊效果</item>
+        <item>魅族效果</item>
+    </string-array>
+
+    <string-array name="PageStyle">
+        <item>AlphaPageTransformer</item>
+        <item>DepthPageTransformer</item>
+        <item>RotateDownPageTransformer</item>
+        <item>RotateUpPageTransformer</item>
+        <item>RotateYTransformer</item>
+        <item>ScaleInTransformer</item>
+        <item>ZoomOutPageTransformer</item>
+    </string-array>
+</resources>
