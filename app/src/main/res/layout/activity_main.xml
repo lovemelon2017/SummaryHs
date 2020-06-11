@@ -48,6 +48,16 @@
                 android:id="@+id/main_picker"
                 style="@style/myTextBlue"
                 android:text="Android Picker" />
+
+            <TextView
+                android:id="@+id/main_switch"
+                style="@style/myTextBlue"
+                android:text="SwitchButton" />
+
+            <TextView
+                android:id="@+id/main_coor"
+                style="@style/myTextBlue"
+                android:text="CoordinatorLayout" />
         </LinearLayout>
     </ScrollView>
 

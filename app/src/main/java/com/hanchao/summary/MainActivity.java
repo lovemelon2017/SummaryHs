@@ -7,10 +7,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.blankj.utilcode.util.ActivityUtils;
 import com.hanchao.summary.banner.BannerDemoActivity;
+import com.hanchao.summary.coor.CoordinatorActivity;
 import com.hanchao.summary.flexbox.FlexBoxActivity;
 import com.hanchao.summary.multiple.MultipleActivity;
 import com.hanchao.summary.picker.DatePickerActivity;
 import com.hanchao.summary.rvandrv.RecyclerDoubleActivity;
+import com.hanchao.summary.sb.SwitchButtonActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -26,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     @OnClick({R.id.main_banner_tv, R.id.main_flex_tv, R.id.main_duo_tv, R.id.main_rv_rv_tv,
-            R.id.main_picker})
+            R.id.main_picker, R.id.main_switch,R.id.main_coor})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.main_banner_tv:
@@ -43,6 +45,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.main_picker:
                 ActivityUtils.startActivity(DatePickerActivity.class);
+                break;
+            case R.id.main_switch:
+                ActivityUtils.startActivity(SwitchButtonActivity.class);
+                break;
+            case R.id.main_coor:
+                ActivityUtils.startActivity(CoordinatorActivity.class);
                 break;
         }
     }

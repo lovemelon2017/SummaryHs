@@ -59,6 +59,8 @@ dependencies {
     //城市选择器
     implementation 'liji.library.dev:citypickerview:5.2.2'
     implementation 'com.zaaach:citypicker:2.0.3'
-
+    //SwitchButton
+    implementation 'com.github.zcweng:switch-button:0.0.3@aar'
+    implementation 'com.kyleduo.switchbutton:library:2.0.0'
 
 }
