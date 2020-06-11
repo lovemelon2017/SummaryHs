@@ -62,5 +62,8 @@ dependencies {
     //SwitchButton
     implementation 'com.github.zcweng:switch-button:0.0.3@aar'
     implementation 'com.kyleduo.switchbutton:library:2.0.0'
+    //仿微信拍小视频
+    implementation 'cjt.library.wheel:camera:1.1.9'
+    implementation 'com.lxj:xpopup:1.8.8-x'
 
 }

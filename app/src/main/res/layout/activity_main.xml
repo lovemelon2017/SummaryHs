@@ -58,6 +58,17 @@
                 android:id="@+id/main_coor"
                 style="@style/myTextBlue"
                 android:text="CoordinatorLayout" />
+
+            <TextView
+                android:id="@+id/main_wx_video"
+                style="@style/myTextBlue"
+                android:text="Camera Wx"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/main_pop"
+                style="@style/myTextBlue"
+                android:text="XPop Images" />
         </LinearLayout>
     </ScrollView>
 

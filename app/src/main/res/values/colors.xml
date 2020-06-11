@@ -5,6 +5,7 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="cl_fff">#FFFFFF</color>
+    <color name="cl_333">#333333</color>
     <color name="cl_indicator_select">#FF3030</color>
     <color name="cl_indicator_unselect">#9E9E9E</color>
 </resources>
