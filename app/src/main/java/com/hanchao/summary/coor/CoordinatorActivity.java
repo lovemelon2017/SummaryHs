@@ -16,7 +16,6 @@ import com.blankj.utilcode.util.SizeUtils;
 import com.google.android.material.appbar.AppBarLayout;
 import com.hanchao.summary.R;
 import com.hanchao.summary.rvandrv.AccessBean;
-import com.hanchao.summary.rvandrv.AccessListAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +28,7 @@ import static com.blankj.utilcode.util.BarUtils.getStatusBarHeight;
 public class CoordinatorActivity extends AppCompatActivity {
     @BindView(R.id.rv_rv)
     RecyclerView mRv;
-    AccessListAdapter mAdapter;
+    StringListAdapter mAdapter;
     @BindView(R.id.appbar)
     AppBarLayout appBar;
 
@@ -81,25 +80,14 @@ public class CoordinatorActivity extends AppCompatActivity {
 
     private void initRv() {
         mRv.setLayoutManager(new LinearLayoutManager(this));
-        mAdapter = new AccessListAdapter(R.layout.item_access_lay);
+        mAdapter = new StringListAdapter(R.layout.item_string_lay);
         mRv.setAdapter(mAdapter);
+        List<String> list = new ArrayList<>();
+        for (int i = 0; i < 30; i++) {
+            list.add("1");
+        }
 
-
-        List<AccessBean> beans = new ArrayList<>();
-        AccessBean bean1 = new AccessBean();
-        bean1.setTitle("商品名称");
-        beans.add(bean1);
-        AccessBean bean2 = new AccessBean();
-        bean2.setTitle("京东打篮球");
-        beans.add(bean2);
-        AccessBean bean3 = new AccessBean();
-        bean3.setTitle("小逗比");
-        beans.add(bean3);
-        AccessBean bean4 = new AccessBean();
-        bean4.setTitle("郑州大学");
-        beans.add(bean4);
-        mAdapter.setNewData(beans);
-
+        mAdapter.setNewData(list);
 
     }
 

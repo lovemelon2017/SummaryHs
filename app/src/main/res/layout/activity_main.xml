@@ -69,6 +69,11 @@
                 android:id="@+id/main_pop"
                 style="@style/myTextBlue"
                 android:text="XPop Images" />
+
+            <TextView
+                android:id="@+id/main_gsy_player"
+                style="@style/myTextBlue"
+                android:text="GSYVideoPlayer" />
         </LinearLayout>
     </ScrollView>
 

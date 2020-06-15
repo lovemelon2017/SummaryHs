@@ -65,5 +65,7 @@ dependencies {
     //仿微信拍小视频
     implementation 'cjt.library.wheel:camera:1.1.9'
     implementation 'com.lxj:xpopup:1.8.8-x'
+    //完整版引入  视频
+    implementation 'com.shuyu:GSYVideoPlayer:7.1.4'
 
 }

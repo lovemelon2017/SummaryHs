@@ -14,6 +14,7 @@ import com.blankj.utilcode.util.ActivityUtils;
 import com.hanchao.summary.banner.BannerDemoActivity;
 import com.hanchao.summary.coor.CoordinatorActivity;
 import com.hanchao.summary.flexbox.FlexBoxActivity;
+import com.hanchao.summary.gsyplayer.GsyDemoActivity;
 import com.hanchao.summary.multiple.MultipleActivity;
 import com.hanchao.summary.picker.DatePickerActivity;
 import com.hanchao.summary.rvandrv.RecyclerDoubleActivity;
@@ -78,7 +79,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     @OnClick({R.id.main_banner_tv, R.id.main_flex_tv, R.id.main_duo_tv, R.id.main_rv_rv_tv,
-            R.id.main_picker, R.id.main_switch, R.id.main_coor, R.id.main_wx_video, R.id.main_pop})
+            R.id.main_picker, R.id.main_switch, R.id.main_coor, R.id.main_wx_video, R.id.main_pop,
+            R.id.main_gsy_player})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.main_banner_tv:
@@ -107,6 +109,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.main_pop:
                 ActivityUtils.startActivity(XpopActivity.class);
+                break;
+            case R.id.main_gsy_player:
+                ActivityUtils.startActivity(GsyDemoActivity.class);
                 break;
         }
     }

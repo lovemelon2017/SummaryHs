@@ -67,7 +67,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         app:thumbTint="#ff0000"
-        app:trackTint="#333333"
-        app:thumbTintMode="src_over" />
+        app:trackTint="#333333" />
 
 </LinearLayout>

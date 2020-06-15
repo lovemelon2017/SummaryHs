@@ -92,12 +92,7 @@ public class XpopDialogActivity extends AppCompatActivity {
         final LoadingPopupView loadingPopup = (LoadingPopupView) new XPopup.Builder(this)
                 .asLoading("加载中...")
                 .show();
-        loadingPopup.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                loadingPopup.setTitle("请稍等...");
-            }
-        }, 1000);
+
         loadingPopup.delayDismissWith(3000, new Runnable() {
             @Override
             public void run() {
