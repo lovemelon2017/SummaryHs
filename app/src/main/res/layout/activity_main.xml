@@ -74,6 +74,11 @@
                 android:id="@+id/main_gsy_player"
                 style="@style/myTextBlue"
                 android:text="GSYVideoPlayer" />
+
+            <TextView
+                android:id="@+id/main_gd_map"
+                style="@style/myTextBlue"
+                android:text="GaoDe Map" />
         </LinearLayout>
     </ScrollView>
 

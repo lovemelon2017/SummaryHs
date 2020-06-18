@@ -29,7 +29,8 @@
     <TextView
         android:id="@+id/gsy_switch_tv"
         style="@style/myTextBlue"
-        android:text="Video Switch" />
+        android:text="Video Switch"
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/gsy_list_auto_tv"
