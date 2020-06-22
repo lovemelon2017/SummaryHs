@@ -12,5 +12,6 @@ public class MyApplication extends Application {
         super.onCreate();
         MultiDex.install(this);
         CityListLoader.getInstance().loadCityData(this);
+
     }
 }

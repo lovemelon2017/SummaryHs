@@ -79,6 +79,11 @@
                 android:id="@+id/main_gd_map"
                 style="@style/myTextBlue"
                 android:text="GaoDe Map" />
+
+            <TextView
+                android:id="@+id/main_qr"
+                style="@style/myTextBlue"
+                android:text="QR Scan" />
         </LinearLayout>
     </ScrollView>
 

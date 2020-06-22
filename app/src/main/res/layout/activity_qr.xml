@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="https://github.com/yuzhiqiang1993/zxing"
+        android:textColor="#999999"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/qr_scan_tv"
+        style="@style/myTextBlue"
+        android:text="QR Scan" />
+
+    <TextView
+        android:id="@+id/scan_result_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textColor="@color/cl_333"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/qr_get_iv"
+        style="@style/myTextBlue"
+        android:text="QR Image" />
+
+
+    <CheckBox
+        android:id="@+id/logo_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="LOGO"
+        android:textColor="@color/cl_333"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/qr_iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>

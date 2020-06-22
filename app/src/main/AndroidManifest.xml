@@ -28,7 +28,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".gmap.HeatMapActivity"></activity>
+        <activity android:name=".qrscan.QrActivity"></activity>
+        <activity android:name=".gmap.HeatMapActivity" />
         <activity android:name=".gmap.InDoorMapActivity" />
         <activity android:name=".gmap.GaoDeListActivity" />
         <activity android:name=".gmap.GaoDeMapActivity" />
