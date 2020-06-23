@@ -96,6 +96,11 @@
                 style="@style/myTextBlue"
                 android:text="DrawerLayout" />
 
+            <TextView
+                android:id="@+id/main_bar"
+                style="@style/myTextBlue"
+                android:text="Immersion Status Bar" />
+
         </LinearLayout>
     </ScrollView>
 

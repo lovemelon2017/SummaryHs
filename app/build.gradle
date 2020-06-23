@@ -74,7 +74,7 @@ dependencies {
     //完整版引入  视频
     implementation 'com.shuyu:GSYVideoPlayer:7.1.4'
     //3D地图so及jar
-   // implementation 'com.amap.api:3dmap:latest.integration'
+    // implementation 'com.amap.api:3dmap:latest.integration'
     //定位功能
     implementation 'com.amap.api:location:latest.integration'
     //搜索功能
@@ -82,5 +82,7 @@ dependencies {
     implementation 'com.amap.api:navi-3dmap:latest.integration'
     //二维码扫描
     implementation 'com.github.yuzhiqiang1993:zxing:2.2.5'
+    //沉浸状态栏
+    implementation 'com.jaeger.statusbarutil:library:1.5.1'
 
 }
