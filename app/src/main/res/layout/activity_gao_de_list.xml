@@ -21,4 +21,9 @@
         style="@style/myTextGreen"
         android:text="Heat Map" />
 
+    <TextView
+        android:id="@+id/route_mat"
+        style="@style/myTextGreen"
+        android:text="Route Map" />
+
 </LinearLayout>

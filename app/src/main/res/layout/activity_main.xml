@@ -84,6 +84,18 @@
                 android:id="@+id/main_qr"
                 style="@style/myTextBlue"
                 android:text="QR Scan" />
+
+            <TextView
+                android:id="@+id/main_emoji"
+                style="@style/myTextBlue"
+                android:text="Emoji"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/main_sliding"
+                style="@style/myTextBlue"
+                android:text="DrawerLayout" />
+
         </LinearLayout>
     </ScrollView>
 

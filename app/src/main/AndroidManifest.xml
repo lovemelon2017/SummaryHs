@@ -28,11 +28,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".qrscan.QrActivity"></activity>
-        <activity android:name=".gmap.HeatMapActivity" />
-        <activity android:name=".gmap.InDoorMapActivity" />
-        <activity android:name=".gmap.GaoDeListActivity" />
+        <activity
+            android:name=".drawer.SlidingRightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".emoj.EmojiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".qrscan.QrActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gmap.HeatMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gmap.InDoorMapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gmap.GaoDeListActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".gmap.GaoDeMapActivity" />
+        <activity
+            android:name="com.amap.api.navi.AmapRouteActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
             android:name=".gsyplayer.AutoPlayRecyclerViewActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
@@ -55,24 +72,54 @@
         <activity
             android:name=".gsyplayer.GsyListActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode" />
-        <activity android:name=".gsyplayer.GsyDemoActivity" />
-        <activity android:name=".xpop.XpopDialogActivity" />
-        <activity android:name=".xpop.XpopActivity" />
-        <activity android:name=".xpop.XpopImageActivity" />
-        <activity android:name=".wxdemo.WxPicActivity" />
-        <activity android:name=".coor.CoordinatorActivity" />
-        <activity android:name=".sb.SwitchButtonActivity" />
+        <activity
+            android:name=".gsyplayer.GsyDemoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xpop.XpopDialogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xpop.XpopActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".xpop.XpopImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wxdemo.WxPicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".coor.CoordinatorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sb.SwitchButtonActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".picker.CityPickerActivity"
             android:theme="@style/DefaultCityPickerTheme" />
-        <activity android:name=".picker.WheelViewActivity" />
-        <activity android:name=".picker.DatePickerActivity" />
-        <activity android:name=".rvandrv.RecyclerDoubleActivity" />
-        <activity android:name=".multiple.MultipleActivity" />
-        <activity android:name=".flexbox.FlexBoxActivity" />
-        <activity android:name=".banner.BannerViewPagerActivity" />
-        <activity android:name=".banner.YouthBannerActivity" />
-        <activity android:name=".banner.BannerDemoActivity" />
+        <activity
+            android:name=".picker.WheelViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".picker.DatePickerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rvandrv.RecyclerDoubleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".multiple.MultipleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".flexbox.FlexBoxActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".banner.BannerViewPagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".banner.YouthBannerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".banner.BannerDemoActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
