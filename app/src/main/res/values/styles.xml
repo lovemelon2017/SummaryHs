@@ -81,4 +81,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <!--底部弹框动画-->
+    <style name="bottom_dialog">
+        <item name="android:windowEnterAnimation">@anim/bottom_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_dialog_out</item>
+    </style>
+
 </resources>

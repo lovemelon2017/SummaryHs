@@ -84,5 +84,7 @@ dependencies {
     implementation 'com.github.yuzhiqiang1993:zxing:2.2.5'
     //沉浸状态栏
     implementation 'com.jaeger.statusbarutil:library:1.5.1'
-
+    //支付宝
+    implementation(name: 'alipaySdk-15.6.4-20190624155522', ext: 'aar')
+    implementation files('libs/libapshare20161108.jar')
 }

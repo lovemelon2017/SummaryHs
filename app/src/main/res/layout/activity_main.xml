@@ -101,6 +101,11 @@
                 style="@style/myTextBlue"
                 android:text="Immersion Status Bar" />
 
+            <TextView
+                android:id="@+id/main_zhifubao"
+                style="@style/myTextBlue"
+                android:text="ZhiFuBao" />
+
         </LinearLayout>
     </ScrollView>
 

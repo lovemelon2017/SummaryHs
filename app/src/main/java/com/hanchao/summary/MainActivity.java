@@ -11,6 +11,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import com.blankj.utilcode.util.ActivityUtils;
+import com.hanchao.summary.ali.AliListActivity;
 import com.hanchao.summary.banner.BannerDemoActivity;
 import com.hanchao.summary.bar.ImmersionBarActivity;
 import com.hanchao.summary.bar.ImmersionListActivity;
@@ -87,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
     @OnClick({R.id.main_banner_tv, R.id.main_flex_tv, R.id.main_duo_tv, R.id.main_rv_rv_tv,
             R.id.main_picker, R.id.main_switch, R.id.main_coor, R.id.main_wx_video, R.id.main_pop,
             R.id.main_gsy_player, R.id.main_gd_map, R.id.main_qr, R.id.main_emoji, R.id.main_sliding,
-            R.id.main_bar})
+            R.id.main_bar,R.id.main_zhifubao})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.main_banner_tv:
@@ -134,6 +135,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.main_bar:
                 ActivityUtils.startActivity(ImmersionListActivity.class);
+                break;
+            case R.id.main_zhifubao:
+                ActivityUtils.startActivity(AliListActivity.class);
                 break;
         }
     }
